@@ -24,7 +24,7 @@ client = chromadb.PersistentClient(path=".chroma")
 collection = client.get_collection("docs")
 
 # --- the web page ---
-st.title("🛠️ SE Copilot")
+st.title("🛠️ Solutions Engineer Answer Bot")
 st.write("Ask a question and I'll answer using only the product docs.")
 
 question = st.text_input("Your question:")
